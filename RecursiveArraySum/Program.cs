@@ -1,12 +1,25 @@
 ﻿using System;
+using System.Linq;
 
 namespace RecursiveArraySum
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+            Console.WriteLine(GetSum(array, 0));
+        }
+
+        private static int GetSum(int[] array, int index)
+        {
+            if (index >= array.Length)
+            {
+                return 0;
+            }
+
+            return array[index] + GetSum(array, index + 1);
         }
     }
 }
