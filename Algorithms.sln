@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generatin 0or1 Vectors", "G
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{8BCF4427-251A-4387-B2A3-19B7ED6973E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindAllPathsInALabyrinth", "FindAllPathsInALabyrinth\FindAllPathsInALabyrinth.csproj", "{EEDB91A3-7D1D-4C04-B5F5-762918191F24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindAllPathsInALabyrinth", "FindAllPathsInALabyrinth\FindAllPathsInALabyrinth.csproj", "{EEDB91A3-7D1D-4C04-B5F5-762918191F24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{762D3C3E-FD0A-414B-81A7-3F7B2B8F1FF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{762D3C3E-FD0A-414B-81A7-3F7B2B8F1FF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Permutations, Variations and Combinations", "Permutations, Variations and Combinations", "{3DAFA489-0098-4596-88C2-E4EED3997C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations without Repetitions", "Permutations without Repetitions\Permutations without Repetitions.csproj", "{B9262AF6-90DD-4E4D-B6BA-5309025E4E3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{762D3C3E-FD0A-414B-81A7-3F7B2B8F1FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{762D3C3E-FD0A-414B-81A7-3F7B2B8F1FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{762D3C3E-FD0A-414B-81A7-3F7B2B8F1FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9262AF6-90DD-4E4D-B6BA-5309025E4E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9262AF6-90DD-4E4D-B6BA-5309025E4E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9262AF6-90DD-4E4D-B6BA-5309025E4E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9262AF6-90DD-4E4D-B6BA-5309025E4E3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +66,7 @@ Global
 		{8BCF4427-251A-4387-B2A3-19B7ED6973E4} = {B3A9F856-03C0-4564-8458-C73CD9BEC238}
 		{EEDB91A3-7D1D-4C04-B5F5-762918191F24} = {B3A9F856-03C0-4564-8458-C73CD9BEC238}
 		{762D3C3E-FD0A-414B-81A7-3F7B2B8F1FF2} = {B3A9F856-03C0-4564-8458-C73CD9BEC238}
+		{B9262AF6-90DD-4E4D-B6BA-5309025E4E3B} = {3DAFA489-0098-4596-88C2-E4EED3997C4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E996AB9-053C-4B49-A9D0-FE91E654733F}
