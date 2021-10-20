@@ -24,17 +24,15 @@ namespace Permutations_without_Repetitions
                 Console.WriteLine(string.Join(' ', permutations));
                 return;
             }
-            else
+
+            for (int i = 0; i < elements.Length; i++)
             {
-                for (int i = 0; i < elements.Length; i++)
+                if (!used[i])
                 {
-                    if (!used[i])
-                    {
-                        used[i] = true;
-                        permutations[index] = elements[i];
-                        Permut(index + 1);
-                        used[i] = false;
-                    }
+                    used[i] = true;
+                    permutations[index] = elements[i];
+                    Permut(index + 1);
+                    used[i] = false;
                 }
             }
         }
