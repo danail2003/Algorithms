@@ -53,7 +53,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph Teory, Traversal and 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connected Components", "Connected Components\Connected Components.csproj", "{3F27E7BE-3134-4979-8DCE-9C86FF1387A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Source Removal Topological Sorting", "Source Removal Topological Sorting\Source Removal Topological Sorting.csproj", "{FE40E491-3270-43D1-811C-6152CD570F2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Source Removal Topological Sorting", "Source Removal Topological Sorting\Source Removal Topological Sorting.csproj", "{FE40E491-3270-43D1-811C-6152CD570F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPath", "ShortestPath\ShortestPath.csproj", "{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +151,10 @@ Global
 		{FE40E491-3270-43D1-811C-6152CD570F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE40E491-3270-43D1-811C-6152CD570F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE40E491-3270-43D1-811C-6152CD570F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -176,6 +182,7 @@ Global
 		{2671C312-13EA-445B-8151-FBD226A6E1FB} = {F46D14FC-885A-4CF9-9765-74FBBD553210}
 		{3F27E7BE-3134-4979-8DCE-9C86FF1387A7} = {A8499749-16C4-41B4-955E-980B6BB5CC64}
 		{FE40E491-3270-43D1-811C-6152CD570F2B} = {A8499749-16C4-41B4-955E-980B6BB5CC64}
+		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE} = {A8499749-16C4-41B4-955E-980B6BB5CC64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E996AB9-053C-4B49-A9D0-FE91E654733F}
