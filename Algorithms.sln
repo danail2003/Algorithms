@@ -55,7 +55,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connected Components", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Source Removal Topological Sorting", "Source Removal Topological Sorting\Source Removal Topological Sorting.csproj", "{FE40E491-3270-43D1-811C-6152CD570F2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPath", "ShortestPath\ShortestPath.csproj", "{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPath", "ShortestPath\ShortestPath.csproj", "{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic Programming", "Dynamic Programming", "{6CE2B27A-4141-4111-B529-94D22019C2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{A9EA4592-F264-46E3-ACB2-DD3834C0F773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{8E83C5CD-4142-4A84-A694-96233040C6BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +161,14 @@ Global
 		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EA4592-F264-46E3-ACB2-DD3834C0F773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EA4592-F264-46E3-ACB2-DD3834C0F773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EA4592-F264-46E3-ACB2-DD3834C0F773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EA4592-F264-46E3-ACB2-DD3834C0F773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E83C5CD-4142-4A84-A694-96233040C6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E83C5CD-4142-4A84-A694-96233040C6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E83C5CD-4142-4A84-A694-96233040C6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E83C5CD-4142-4A84-A694-96233040C6BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -183,6 +197,8 @@ Global
 		{3F27E7BE-3134-4979-8DCE-9C86FF1387A7} = {A8499749-16C4-41B4-955E-980B6BB5CC64}
 		{FE40E491-3270-43D1-811C-6152CD570F2B} = {A8499749-16C4-41B4-955E-980B6BB5CC64}
 		{3A214CF0-3C3F-456D-9E3E-0A1A01DBC4FE} = {A8499749-16C4-41B4-955E-980B6BB5CC64}
+		{A9EA4592-F264-46E3-ACB2-DD3834C0F773} = {6CE2B27A-4141-4111-B529-94D22019C2B2}
+		{8E83C5CD-4142-4A84-A694-96233040C6BC} = {6CE2B27A-4141-4111-B529-94D22019C2B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E996AB9-053C-4B49-A9D0-FE91E654733F}
